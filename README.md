@@ -6,6 +6,8 @@ This plugin extends the Navigation block for PKP Open Journal Systems to leverag
 
 * OJS 2.4.x
 
+For a 3.x analog, see the [PKP Sitesearch Plugin](https://github.com/ulsdevteam/pkp-sitesearch).
+
 ## Installation
 
 Install this as a "block" plugin in OJS.  To install manually via the filesystem, extract the contents of this archive to a directory (e.g. "sitesearch") under "plugins/blocks" in your OJS root.  To install via Git submodule, target that same directory path: `git submodule add https://github.com/ulsdevteam/ojs-sitesearch-plugin plugins/blocks/sitesearch` and `git submodule update --init --recursive plugins/blocks/sitesearch`.  Run the upgrade script to register this plugin, e.g.: `php tools/upgrade.php upgrade`
